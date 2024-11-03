@@ -10,8 +10,6 @@ resource "aws_lambda_function" "test_lambda" {
   }
 }
 
-
-
 data "aws_ecr_image" "service_image" {
   repository_name = "lambda"
   image_tag       = "initial"
