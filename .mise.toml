@@ -1,2 +1,3 @@
 [tools]
 terraform = '1.9.8'
+ruby = "3.2.5"
