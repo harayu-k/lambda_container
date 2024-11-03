@@ -10,4 +10,10 @@ terraform {
 provider "aws" {
   region = "ap-northeast-1"
   profile = "developer"
+
+  default_tags {
+    tags = {
+      name = "Terraform"
+    }
+  }
 }
